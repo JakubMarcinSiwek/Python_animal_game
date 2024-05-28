@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="PL">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to AnimalSimulator’s documentation! &#8212; AnimalSimulator  - dokumentacja</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Indeks" href="genindex.html" />
+    <link rel="search" title="Szukaj" href="search.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="#">
+          <span>AnimalSimulator  - dokumentacja</span></a></h1>
+        <h2 class="heading"><span>Welcome to AnimalSimulator’s documentation!</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        <a class="uplink" href="#">Treść</a>
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <section id="welcome-to-animalsimulator-s-documentation">
+<h1>Welcome to AnimalSimulator’s documentation!<a class="headerlink" href="#welcome-to-animalsimulator-s-documentation" title="Permalink to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="animal-simulator">
+<h1>Animal Simulator<a class="headerlink" href="#animal-simulator" title="Permalink to this heading">¶</a></h1>
+<p>Animal Simulator to prosta gra, w której gracz troszczy się o swoje wirtualne zwierzątko, dbając o jego potrzeby, takie jak jedzenie, sen i zabawa.</p>
+<section id="glowne-funkcje">
+<h2>Główne Funkcje<a class="headerlink" href="#glowne-funkcje" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Wybór pomiędzy czterema zwierzętami: psem, kotem, królikiem i wężem.</p></li>
+<li><p>Nakarmienie zwierzątka różnymi rodzajami jedzenia, które zwiększają poziom najedzenia.</p></li>
+<li><p>Zabawa ze zwierzątkiem za pomocą różnych aktywności, które zmniejszają nudę.</p></li>
+<li><p>Funkcja spania, która resetuje poziom snu zwierzątka do 0.</p></li>
+</ul>
+</section>
+<section id="kod">
+<h2>Kod<a class="headerlink" href="#kod" title="Permalink to this heading">¶</a></h2>
+<p>Kod został podzielony na trzy główne pliki:</p>
+<ul class="simple">
+<li><p><cite>main.py</cite> - Główny plik, który uruchamia symulator.</p></li>
+<li><p><cite>app.py</cite> - Zawiera główną klasę aplikacji <cite>AnimalSimulator</cite>.</p></li>
+<li><p><cite>utils.py</cite> - Zawiera funkcje pomocnicze, takie jak <cite>update_values</cite> i <cite>update_stats_labels</cite>.</p></li>
+</ul>
+</section>
+</section>
+<section id="module-Projekt.app">
+<span id="app"></span><h1>App<a class="headerlink" href="#module-Projekt.app" title="Permalink to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">Projekt.app.</span></span><span class="sig-name descname"><span class="pre">AnimalSimulator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">master</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.create_widgets">
+<span class="sig-name descname"><span class="pre">create_widgets</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.create_widgets" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Tworzy widżety dla symulatora zwierzątka.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.draw_character">
+<span class="sig-name descname"><span class="pre">draw_character</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.draw_character" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Wyświetla wybraną postać zwierzątka</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.feed_animal">
+<span class="sig-name descname"><span class="pre">feed_animal</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.feed_animal" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Karmi zwierzątko wybranym jedzeniem</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.initialize_values">
+<span class="sig-name descname"><span class="pre">initialize_values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.initialize_values" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Inicjalizuje wartości początkowe dla symulatora zwierzątka.
+:return:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.play_with_animal">
+<span class="sig-name descname"><span class="pre">play_with_animal</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.play_with_animal" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Bawi się z zwierzątkiem wybraną zabawą oraz zwiększa sen i głód</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.reset_values">
+<span class="sig-name descname"><span class="pre">reset_values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.reset_values" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Ustawia wartości na początkowe przy zmianie zwierzęcia
+:return:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.select_cat">
+<span class="sig-name descname"><span class="pre">select_cat</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.select_cat" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Wybiera kota jako zwierzątko w symulatorze.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.select_dog">
+<span class="sig-name descname"><span class="pre">select_dog</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.select_dog" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Wybiera psa jako zwierzątko w symulatorze.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.select_rabbit">
+<span class="sig-name descname"><span class="pre">select_rabbit</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.select_rabbit" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Wybiera królika jako zwierzątko w symulatorze.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.select_snake">
+<span class="sig-name descname"><span class="pre">select_snake</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.select_snake" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Wybiera węża jako zwierzątko w symulatorze.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.sleep">
+<span class="sig-name descname"><span class="pre">sleep</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.sleep" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Powoduje, że zwierzątko idzie spać, resetując jego poziom snu do 0.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.update_stats_labels">
+<span class="sig-name descname"><span class="pre">update_stats_labels</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.update_stats_labels" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Aktualizuje etykiety statystyk, aby odzwierciedlić obecne wartości.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="Projekt.app.AnimalSimulator.update_values">
+<span class="sig-name descname"><span class="pre">update_values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.app.AnimalSimulator.update_values" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Aktualizuje wartości symulatora zwierzątka, zwiększając nudę, senność i zmniejszając najedzenie.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-Projekt.utils">
+<span id="utils"></span><h1>Utils<a class="headerlink" href="#module-Projekt.utils" title="Permalink to this heading">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="Projekt.utils.update_stats_labels">
+<span class="sig-prename descclassname"><span class="pre">Projekt.utils.</span></span><span class="sig-name descname"><span class="pre">update_stats_labels</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.utils.update_stats_labels" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Aktualizuje liczby wyświetlane użytkownikowi
+:param self:
+:return:</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="Projekt.utils.update_values">
+<span class="sig-prename descclassname"><span class="pre">Projekt.utils.</span></span><span class="sig-name descname"><span class="pre">update_values</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#Projekt.utils.update_values" title="Stały odnośnik do tej definicji">¶</a></dt>
+<dd><p>Aktualizuje wartości symulatora zwierzątka co 2 sekundy, zwiększając poziom nudy, senności i zmniejszając najedzenia.
+:param self:
+:return:</p>
+</dd></dl>
+
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Indeks</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Indeks modułów</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Wyszukiwanie</span></a></p></li>
+</ul>
+</section>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        <a class="uplink" href="#">Treść</a>
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023, Roksana Żubert, Jakub Siwek.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.0.1.
+    </div>
+  </body>
+</html>
